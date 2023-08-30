@@ -6,6 +6,7 @@ from accounts.utils import detectUser, send_verification_email
 from .forms import UserForm
 from vendor.forms import VendorForm
 from .models import User, UserProfile
+from vendor.models import Vendor
 from django.contrib import messages, auth
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.utils.http import urlsafe_base64_decode
